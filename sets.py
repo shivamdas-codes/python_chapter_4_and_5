@@ -50,3 +50,6 @@ collection1.add(1)
 collection1.add(2)
 collection1.remove(2) # this method is use to remove the value inside the set
 print(collection1)
+
+
+# (3). clear()
