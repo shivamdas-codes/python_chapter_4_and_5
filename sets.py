@@ -53,3 +53,12 @@ print(collection1)
 
 
 # (3). clear()
+num = {1,2,3,4,5}
+num.clear() # this is used to clear the entire set (empty set)
+print(len(num))
+print(num)
+
+
+# (4). pop()
+random_list = {"hello", "world", "hi", "data"}
+print(random_list.pop()) # it just randomly pop the value out of the set
