@@ -26,5 +26,5 @@ while i <= 48:
     print("need to improve", i)
     i += 2
 students_marks = i # changed to the original name.
-del i
+del i   # 'i' was deleted and no longer used in this code it is for temporary purpose.
 print(students_marks)
