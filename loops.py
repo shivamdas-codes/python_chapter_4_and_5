@@ -31,10 +31,11 @@ print(students_marks)
 
 
 
-x = [True, True, (True+1)*4]
-y = False*3 + 1
-for i in range(y + sum(x) - 9):
-    print(sum(x)+i)
+x = [True, True, (True+1)*4] # x = 10
+y = False*3 + 1 # y = 1
+# we know that in boolean "TRUE = 1" and "FALSE = 0"
+for i in range(y + sum(x) - 9): #i is the variable here, the range(2)
+    print(sum(x)+i) #though we know that the range is 2 we have to find the i value 2 times which is (10,11)
 
 
 i = 1
