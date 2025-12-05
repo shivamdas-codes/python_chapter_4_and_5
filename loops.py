@@ -31,7 +31,7 @@ students_marks = i # changed to the original name.
 del i   # 'i' was deleted and no longer used in this code it is for temporary purpose.
 print(students_marks)
 
-#DOUBT PROBLEM (2):
+#DOUBT PROBLEM (2): IMP FORMAT(HOW BOOLEAN VALUES WORK IN LOOP)
 x = [True, True, (True+1)*4] # x = 10
 y = False*3 + 1 # y = 1
 # we know that in boolean "TRUE = 1" and "FALSE = 0"
@@ -40,8 +40,8 @@ for i in range(y + sum(x) - 9): #i is the variable here, the range(2)
 
 
 
-i = 1
-while i <= 500:
+i = 1   # loop started 
+while i <= 500: # loop will continue till assigned value and stopes when it reaches 'assigned value/false'
     print(i)
     i += 1
 print("loop ended")
