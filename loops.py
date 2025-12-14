@@ -53,10 +53,11 @@
 # print("loop ended")
 
 
+
 # BREAK STATEMENT()
 password = "shiv@shre33"
-userinput = input("enter the password:")
 while True:
+    userinput = input("enter the password:")
     if userinput == password:
         print("LOGIN SUCCESFULLY\nWELCOME BUDDY")
         if userinput != password:
