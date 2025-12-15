@@ -67,12 +67,22 @@
 #         print("STILL HOW MANY ATTEMPTS YOU WANT TO TRY \nDO ONE THING GO AND STUDY")
 
 
-# CONTINUE STATEMENT():
-i = 0
-while i <= 5:
-    if i == 3:
-        i += 1
-        continue    # when i=3 the loop will skip that value and continue the loop
-    # basically when the value meets the condition it will not print that value and continue the loop 
+# # CONTINUE STATEMENT():
+# i = 0
+# while i <= 5:
+#     if i == 3:
+#         i += 1
+#         continue    # when i=3 the loop will skip that value and continue the loop
+#     # basically when the value meets the condition it will not print that value and continue the loop 
+#     print(i)
+#     i += 1
+
+
+# FOR LOOP():
+LIST = [1,2,3,4]
+for i in LIST:  # each item of the list will be printed in a new line
     print(i)
-    i += 1
+
+name = "shivam"
+for i in name:  # each letter will be printed in a new line
+    print(i)
