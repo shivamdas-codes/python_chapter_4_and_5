@@ -143,3 +143,6 @@ for i in range(0,100,2):  # starts from 0 to 99 with increment of 2
 for i in range(5):
     pass    #basically this statement is used when we dont want to write any code inside the loop but we want the loop to be there 
 print("hii")
+
+# --------------------------------------------------------------------------------------------------------------------------------------
+
