@@ -144,5 +144,120 @@ for i in range(5):
     pass    #basically this statement is used when we dont want to write any code inside the loop but we want the loop to be there 
 print("hii")
 
+
 # --------------------------------------------------------------------------------------------------------------------------------------
 
+# PRACTICE PROGRAM IN BOTH FOR LOOP AND WHILE LOOP:
+# (19). print number from 1 to 100
+i = 1
+while i <= 100:
+    print(i)
+    i +=1
+
+
+# (20). print numbers from 100 to 1
+i = 100
+while i >= 1:
+    print(i)
+    i -= 1
+
+
+# (21). print the multiplication table of a number n
+n = int(input("enter the number:")) # user input [ the input which is given is the fixed input and there is no change in that input]
+i = 1       #starting point from where the loop will start and it can be changed
+while i <= 10:  #ending point where the loop will end and it can be changed too
+    print(n*i)  # 'n' is given input and 'i' is the variable which is changing every time
+    i += 1
+# so, basically we shouldn't assign the 'n' value in the loop because it is a fixed value and 'i' is the variable which is changing every time the loop takes place.
+
+
+# (22). print the elements of a list using while loop
+list = [1,4,9,16,25,36,49,64,81,100]
+index = 0   # index always starts from 0
+while index < len (list):  # len(list) = 10
+    print(list[index])   # prints the element at the current index
+    index += 1           # move to the next index
+
+
+# (23).search for a number "x" in this tuple using loop
+tuple = (1,4,9,16,25,36,49,64,81,100,1,4,9,16,25,36,49,64,81,100)
+x = int(input("enter the number to search:"))
+i = 0   #initialization
+while i < len(tuple):
+    if tuple[i] == x:
+        print("found the index:",i)
+    else:
+        print("keep finding")   #it keeps finding till the last index though the value is found or not found
+# its not nesassary to use the else statement in this case 
+    i += 1
+
+
+# (24).print the element of the following list using a for loop
+list = [1,4,9,16,25,36,49,64,81,100]
+for i in list:
+    print(i)
+
+
+# (25). search for a number "y" in this tuple using for loop
+tuple = (1,4,9,16,25,36,49,64,81,100,)
+x = int(input("enter number:"))
+idx = 0
+for i in tuple:
+    if i == x:
+        print("found the number:", idx)
+    idx += 1
+# to find the index of the given number we have to create a new variable 'idx' and assign it by 0 and every time it should be increased by 1 till it matches the x value
+
+
+# (26). print numbers from 100 to 1 using for loop
+for i in range(100,0,-1):   #in 'step' section if we want to increase the value we have to give positive value and if we want to decrease the value we have to give negative value
+    print(i)
+
+
+# (27).print numbers from 1 to 100 using for loop
+for i in range(1,101):
+    print(i)
+
+
+# (28). print the multiplication table of a number n using for loop
+n = int(input("enter the number:"))
+for i in range(1,11):
+    print(n*i)
+    print(f"{n} * {i} = {n*i}") #this line is the formatted string literal which is used to print the multiplication table in a proper format.
+
+
+# # (29). write a program to find the sum of first n natural numbers using both for loop and while loop
+# n = int(input("enter the value of n:")) #here 'n' is taken as 'i'
+# sum = 0 #starting/initial value of sum
+# for i in range(1,n+1):  #loop starts from (1 to n+1) because the range function exclude the last value
+#     sum += i
+#     print(sum)
+# finding natural numbers using while loop
+
+# m = int(input("enter number:"))
+# sum = 0
+# i = 1
+# while i <= m:
+#     sum += i
+#     i += 1
+# print(sum)
+# finding natural numbers using for loop
+"""i have doubt here"""
+
+
+# (30).write a program to print the factorial of a number using both for loop and while loop
+n = int(input("enter the number:"))
+fact = 1    #when we using factorial the starting value should be 1 because if we take 0 then the factorial will be 0
+i = 1
+while i <= n:
+    fact *= i
+    i += 1
+print("the factorial is:", fact)
+# factorial using while loop
+
+m = int(input("enter the number:"))
+fact = 1
+for i in range(1, m+1):
+    fact *= i
+print("the factorial is:", fact)
+# factorial using for loop
