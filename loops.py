@@ -226,21 +226,21 @@ for i in range(1,11):
     print(f"{n} * {i} = {n*i}") #this line is the formatted string literal which is used to print the multiplication table in a proper format.
 
 
-# # (29). write a program to find the sum of first n natural numbers using both for loop and while loop
-# n = int(input("enter the value of n:")) #here 'n' is taken as 'i'
-# sum = 0 #starting/initial value of sum
-# for i in range(1,n+1):  #loop starts from (1 to n+1) because the range function exclude the last value
-#     sum += i
-#     print(sum)
+# (29). write a program to find the sum of first n natural numbers using both for loop and while loop
+n = int(input("enter the value of n:")) #here 'n' is taken as 'i'
+sum = 0 #starting/initial value of sum
+for i in range(1,n+1):  #loop starts from (1 to n+1) because the range function exclude the last value
+    sum += i
+    print(sum)
 # finding natural numbers using while loop
 
-# m = int(input("enter number:"))
-# sum = 0
-# i = 1
-# while i <= m:
-#     sum += i
-#     i += 1
-# print(sum)
+m = int(input("enter number:"))
+sum = 0
+i = 1
+while i <= m:
+    sum += i
+    i += 1
+print(sum)
 # finding natural numbers using for loop
 """i have doubt here"""
 
